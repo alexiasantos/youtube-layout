@@ -10,16 +10,16 @@ e é justamente isso que o grid proporciona, ao nosso visual.
 ## Criação do Layout
 
 
-<img src="./src/design/design-youtube.png" width="600px" height="450px">
+<img src="./src/design/design-youtube.png" width="700px" height="450px">
 
 ## Youtube original
 
 ### Linhas
 
-<img src="./src/design/youtube-linhas.png" width="600px" height="450px">
+<img src="./src/design/youtube-linhas.png" width="700px" height="450px">
 
 ### Colunas
 
-<img src="./src/design/youtube-colunas.png" width="600px" height="450px">
+<img src="./src/design/youtube-colunas.png" width="700px" height="450px">
 
 
