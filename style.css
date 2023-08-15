@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: #F7F7F7;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    display: grid;
+    max-width: 900px;
+    grid: "video-principal propaganda"
+        "video-principal playlist";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    padding: 35px;
+    gap: 20px;
+}
+
+.video-principal {
+    grid-area: video-principal;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.propaganda {
+    grid-area: propaganda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4C4C4;
+}
+
+.visualizacoes {
+    font-size: 14px;
+}
+
+.descricao>p {
+    margin-top: 7px;
+}
+
+.video-principal>iframe {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    grid-area: playlist;
+    gap: 15px;
+    font-size: 11px;
+
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+.item-playlist {
+    display: flex;
+    gap: 5px;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 9px;
+}
